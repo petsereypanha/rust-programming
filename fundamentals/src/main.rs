@@ -4,6 +4,7 @@ mod if_else;
 mod functions;
 mod loops;
 mod ownership;
+mod references;
 
 fn main() {
     data_type::data_type();
@@ -12,4 +13,5 @@ fn main() {
     functions::functions();
     loops::loops();
     ownership::ownership_1();
+    references::references();
 }
