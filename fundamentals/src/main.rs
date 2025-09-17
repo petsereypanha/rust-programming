@@ -5,6 +5,7 @@ mod functions;
 mod loops;
 mod ownership;
 mod references;
+mod enums;
 
 fn main() {
     data_type::data_type();
@@ -14,4 +15,5 @@ fn main() {
     loops::loops();
     ownership::ownership_1();
     references::references();
+    enums::enums();
 }
