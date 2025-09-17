@@ -14,6 +14,22 @@ struct Employee {
     location: Location
 }
 
+fn is_odd(num:i8) -> Option<bool> {
+    if num % 2 == 1 {
+        return Some(true);
+    } else {
+        return None;
+    }
+}
+
+#[allow(dead_code)]
+enum Grade {
+    A,
+    B,
+    C,
+    D
+}
+
 pub fn enums() {
     let _bangalore = Location::India(String::from("Bangalore"));
     let _delhi = Location::India(String::from("Delhi"));
@@ -29,4 +45,13 @@ pub fn enums() {
         location: _bangalore
     };
     println!("emp1: {:?}", emp1);
+    println!("{:?}", is_odd(10));
+    println!("{:?}", is_odd(11));
+    let grade = Grade::B;
+    match grade {
+        Grade::A => println!("Excellent"),
+        Grade::B => println!("Very good"),
+        Grade::C => println!("Good"),
+        Grade::D => println!("Poor")
+    }
 }
