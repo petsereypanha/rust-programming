@@ -6,6 +6,7 @@ mod loops;
 mod ownership;
 mod references;
 mod enums;
+mod hashmap;
 
 fn main() {
     data_type::data_type();
@@ -16,4 +17,5 @@ fn main() {
     ownership::ownership_1();
     references::references();
     enums::enums();
+    hashmap::hashmap();
 }
