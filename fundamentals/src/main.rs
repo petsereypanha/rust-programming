@@ -7,6 +7,7 @@ mod ownership;
 mod references;
 mod enums;
 mod hashmap;
+mod slice;
 
 fn main() {
     data_type::data_type();
@@ -18,4 +19,5 @@ fn main() {
     references::references();
     enums::enums();
     hashmap::hashmap();
+    slice::slice();
 }
