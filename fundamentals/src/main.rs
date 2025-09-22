@@ -8,6 +8,7 @@ mod references;
 mod enums;
 mod hashmap;
 mod slice;
+mod string;
 
 fn main() {
     data_type::data_type();
@@ -20,4 +21,5 @@ fn main() {
     enums::enums();
     hashmap::hashmap();
     slice::slice();
+    string::string();
 }
