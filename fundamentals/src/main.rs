@@ -9,6 +9,8 @@ mod enums;
 mod hashmap;
 mod slice;
 mod string;
+mod vector;
+mod errors;
 
 fn main() {
     data_type::data_type();
@@ -22,4 +24,6 @@ fn main() {
     hashmap::hashmap();
     slice::slice();
     string::string();
+    vector::vector();
+    errors::errors();
 }
