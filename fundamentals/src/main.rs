@@ -11,6 +11,7 @@ mod slice;
 mod string;
 mod vector;
 mod errors;
+mod generics;
 
 fn main() {
     data_type::data_type();
@@ -26,4 +27,5 @@ fn main() {
     string::string();
     vector::vector();
     errors::errors();
+    generics::generics();
 }
