@@ -12,6 +12,7 @@ mod string;
 mod vector;
 mod errors;
 mod generics;
+mod tests;
 
 fn main() {
     data_type::data_type();
