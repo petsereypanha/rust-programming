@@ -8,7 +8,7 @@ struct Circle<T> {
     r : T
 }
 
-fn generics() {
+pub fn generics() {
     let a = 10;
     let b = 20;
     let c = sum_int(a, b);
